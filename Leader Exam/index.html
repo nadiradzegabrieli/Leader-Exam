@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mini Social Network</h1>
+        <nav>
+            <a href="index.html" class="active">Main</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+    <main>
+        <form id="postForm">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="body" rows="2" placeholder="Text . . ." required></textarea>
+            <input type="url" id="image" placeholder="Image URL">
+            <select  id="type">
+                <option value="public">Public</option>
+                <option value="private">Private</option>
+            </select>
+            <button type="submit">Share Post</button>
+        </form> 
+
+        <div class="posts" id="posts"></div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html> 
