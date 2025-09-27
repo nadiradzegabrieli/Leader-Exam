@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    
+}
+
+.comment {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.time {
+    color: gray;
+    font-size: 13px;
+}
+
+.comment-text {
+    margin: 10px 0;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 3px 8px;
+    gap: 5px;
+}
+
+.score button,
+.comment-actions button,
+.add-comment button {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score button img,
+.comment-actions button img {
+    width: 18px;
+    height: 18px;
+}
+
+.reply {
+    color: blueviolet;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.add-comment {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-comment input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.add-comment .send {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete {
+    border: none;
+    background-color: white;
+}
